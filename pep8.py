@@ -93,7 +93,6 @@ my_x = 25
 my_y = 30
 my_string = "Olá"
 
-
 [7] - Termine sempre uma instrução com uma linha em branco
 """
 import this
