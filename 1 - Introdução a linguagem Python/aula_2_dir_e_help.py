@@ -1,11 +1,11 @@
 """
 Python utilities that can help you
 
-dir(variable/data type)
+dir(variável/tipo de dado)
 dir('long string')
-dir > return every attribute or function/method available for certain data type or variable.
+dir > Retorna qualquer atributo ou função/método para return every attribute or function/method available for certain data type or variable.
 
-help(variable/data type.property)
+help(variável/tipo de dado.propriedade)
 help('kinda long string'.lower)
 help > return the docstring/how to use the attributes/properties and/or functions/methods available for certain data type or variable.
 """
