@@ -1,14 +1,13 @@
 """
-Utilitários Python para te ajudar na programação
+Python utilities that can help you
 
-dir(variavel/tipo de dado)
-dir('string qualquer')
-dir > Apresenta todos os atributos e funções/métodos disponíveis para determinado tipo de dado ou variável.
+dir(variable/data type)
+dir('long string')
+dir > return every attribute or function/method available for certain data type or variable.
 
-help(variavel/tipo de dado.propriedade)
-help('string qualquer'.lower)
-help > Apresenta a documentação/como utilizar os atributos/propriedades e funções/métodos disponíveis
-para determinado tipo de dado ou variável
+help(variable/data type.property)
+help('kinda long string'.lower)
+help > return the docstring/how to use the attributes/properties and/or functions/methods available for certain data type or variable.
 """
 print(dir(4))
 #['__abs__', '__add__', '__and__', '__bool__', '__ceil__', '__class__', '__delattr__', '__dir__', '__divmod__',
@@ -21,7 +20,7 @@ print(dir(4))
 # '__trunc__', '__xor__', 'as_integer_ratio', 'bit_length', 'conjugate', 'denominator', 'from_bytes', 'imag', 'numerator',
 # 'real', 'to_bytes']
 
-print(dir('qualquer string'))
+print(dir('stringstringstringstring'))
 #['__add__', '__class__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__',
 # '__getattribute__', '__getitem__', '__getnewargs__', '__gt__', '__hash__', '__init__', '__init_subclass__',
 # '__iter__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__',
@@ -32,15 +31,15 @@ print(dir('qualquer string'))
 # 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate',
 # 'upper', 'zfill']
 
-print(help('string_qualquer'.lower)
+print(help('StringStringString'.lower))
 
 #Help on built-in function lower:
 
 #lower() method of builtins.str instance
 #    Return a copy of the string converted to lowercase.
 
-numero = 4
-print help(numero.__add__)
+number = 4
+print(help(number.__add__))
 #Help on method-wrapper:
 
 #__add__ = <method-wrapper '__add__' of int object>
