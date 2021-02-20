@@ -6,6 +6,8 @@ lembrando que:
 x = -b +- sqrt(delta) / 2a
 
 delta = b * b - 4ac
+
+Equação: ax2 + bx + c
 """
 a = float(input('Digite a variável A da equação: '))
 b = float(input('Digite a variável B da equação: '))
